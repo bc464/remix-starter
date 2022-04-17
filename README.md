@@ -29,3 +29,8 @@ If you want more real-time communication, you can visit our community on [Slack]
 https://fonts.google.com/specimen/Space+Grotesk
 https://fonts.google.com/specimen/Source+Sans+Pro
 # remix-starter
+The result of the completed project:
+![Screenshot 2022-04-17 at 14-41-41 Remix](https://user-images.githubusercontent.com/82536545/163714738-3612a38e-4351-45c9-8265-2f6b3765fd59.png)
+![Screenshot 2022-04-17 at 14-41-26 Remix](https://user-images.githubusercontent.com/82536545/163714755-504df251-2c72-4edc-8563-a1fd57a55c56.png)
+![Screenshot 2022-04-17 at 14-41-05 Remix](https://user-images.githubusercontent.com/82536545/163714767-0a893ddd-7918-4e43-a182-c6e4a798096a.png)
+
