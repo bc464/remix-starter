@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700;900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Remix</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <section class="navigation ">
+    <div class="logo">
+      <img src="Assets/Remix Logo Light Mode.svg" alt="remix logo" class="remix-logo-top">
+      <img src="Assets/Remix-logo.svg" alt="remix logo" class="remix-logo-dark">
+    </div>
+    <nav class="nav-bar">
+      <div class="nav-left">
+        <ul class="main-nav-list flex">
+          <li><a class="nav-link" href="#">Product</a></li>
+          <li><a class="nav-link" href="#">Pricing</a></li>
+          <li><a class="nav-link" href="#">For Sketch</a></li>
+          <li><a class="nav-link" href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="theme-change">
+          <div class="light-theme">
+            <img src="Assets/Light.svg" alt="light-icon">
+            <span class="light-text">Light</span>
+          </div>
+          <div class="dark-theme">
+            <img src="Assets/Moon.svg" alt="moon-icon">
+              <span class="dark-text">Dark</span>
+            </div>
+          </div>
+          <ul>
+            <li><a class="nav-link" href="#">Sign in</a></li>
+          </ul>
+          <div class="figma-btn flex">
+            <img src="Assets/figma-logo.svg" alt="figma logo" class="figma-logo">
+          <button class="btn get-figma-plugin"><a href="onboarding.html">Get Figma Plugin</a></button>
+        </div>
+        </div>
+      </div>
+     </nav>
+    <button class="btn-mobile-nav">
+        <img src="Assets/Menu.svg" class="icon-mobile-nav" id="menu-outline">
+        <img src="Assets/Close.svg" class="icon-mobile-nav" id="close-outline">
+      </button>
+
+    </section>
+    <main>
+      <section class="hero-section flex">
+          <div class="hero-left">
+            <h1>Developer hand-off has <span><img src="Assets/Never-highlight.svg" class="never-highlight">never</span> been easier.</h1>
+              <p>Remix is a Figma and Sketch plugin that was made with Developers in mind. Create custom React components in seconds, copy CSS code in one click, and export your assets effortlessly.</p>
+              <div class="figma-btn figma-btn-hero">
+                <img src="Assets/figma-logo.svg" alt="figma logo" class="figma-logo">
+                <button class="btn get-figma-hero-section"><a href="onboarding.html">Get Figma Plugin</a></button>
+              </div>
+          </div>
+          <div class="hero-right">
+            <div class="outer-container">
+              <span class="red">&nbsp;</span>
+              <span class="gold">&nbsp;</span>
+              <span class="green">&nbsp;</span>
+              <div class="inner-container">
+                  <div class="top-inner-container flex">
+                    <img src="Assets/userAvatar01.png" alt="user avatar 1">
+                    <div class="your-project">
+                      <h5>Your Projects</h5>
+                      <p>3 current assigned</p>
+                    </div>
+                  </div>
+                  <div class="middel-inner-container">
+                      <div class="box">
+                        <div class="priority flex">
+                          <p>Low Priority</p>
+                          <p>
+                            &#9201; 26 March</p>
+                      </div>
+                      <p class="priority-text">Create documentation on how to use Strapi CMS for client.</p>
+                  </div>
+                  <div class="box">
+                        <div class="priority flex">
+                          <p>High Priority</p>
+                          <p>
+                            &#9201; 26 April</p>
+                      </div>
+                      <p class="priority-text">Work on proposal for Sam's E-commerce website.</p>
+                  </div>
+                  <div class="box">
+                        <div class="priority flex">
+                          <p>Low Priority</p>
+                          <p>
+                            &#9201; No SLA</p>
+                      </div>
+                      <p class="priority-text">Create Facebook marketing compaign for personal brand.</p>
+                  </div>
+              </div>
+              <div class="lower-container flex">
+                <button class="btn-mark">Mark all as Complete</button>
+                <button class="btn reassign">Reassign Projects</button>
+            </div>
+          </div>
+      </section>
+<!-- COLLABORATION SECTION -->
+      <section class="collaboration-section flex">
+        <div class="collaboration-left">
+          <h2>Collaboration has never been easier.</h2>
+          <p>With Remix, you will be able to actively collaborate with developers in real-time. No more back-and-forth emails and Slack messages to get that design perfect.</p>
+          <a href="#">Learn More &rarr;</a>
+        </div>
+        <div class="collaboration-right">
+          <img src="Assets/Collaboration.png" alt="Collaboration picture" class="collab-img">
+        </div>
+      </section>
+<!-- USER FEEDBACK SECTION -->
+      <section class="user-feedback-section flex">
+        <div class="feedback-left">
+          <div class="user-box flex">
+            <img src="Assets/TestimonialAvatar01.png" alt="avatar user 1" class="testimonial-avatar">
+            <div>
+              <p>"Developers, you no longer need to spend hours translating designs."</p>
+              <div>
+                <h3>Jesse Hendricks</h3>
+                <span>⭐⭐⭐⭐⭐</span>
+              </div>
+            </div>
+          </div>
+          <div class="user-box flex">
+            <img src="Assets/TestimonialAvatar02.png" alt="avatar user 2" class="testimonial-avatar">
+            <div>
+              <p>"Remix has been a life saver when it comes to developer hand off."</p>
+              <div>
+              <h3>Mia Andrews</h3>
+              <span>⭐⭐⭐⭐⭐</span>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="feedback-right">
+          <h2>What our users say</h2>
+          <p>We have cultivated a growing community for developers, and that matters to us. See what our users are saying:</p>
+          <div class="rating flex">
+            <p class="star">⭐</p>
+            <p><span class="rating-num">5.0</span> Rating</p>
+          </div>
+          <div class="users-img-stats flex">
+            <div>
+            <img src="Assets/userAvatar01.png" class="user-avatar">
+            <img src="Assets/userAvatar02.png" class="user-avatar">
+            <img src="Assets/userAvatar03.png" class="user-avatar">
+            <img src="Assets/userAvatar04.png" class="user-avatar">
+            <img src="Assets/userAvatar05.png" class="user-avatar">
+            <img src="Assets/userAvatar06.png" class="user-avatar">
+          </div>
+          <div>
+            <p><span class="rating-num">2400+</span> Developers</p>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- DEVELOPERS GUIDE SECTION -->
+    <section class="developers-guide-section">
+      <div class="container-developers">
+        <div class="developers-left">
+          <h2>Get the Ultimate Developers Hand Off Guide</h2>
+          <p>A guide with 120+ hours worth of content to guide you on how to perfectly hand over your designs to your developers. Best part? It's completely free.</p>
+          <input type="email" placeholder="enter email address">
+          <button class=" btn btn-guide">Send me the guide</button>
+        </div>
+        <div class="developers-right">
+          <img src="Assets/Illustrations.png" alt="illustrations" class="illustrations">
+        </div>
+      </div>
+    </section>
+    <!-- PRICE STRUCTURE SECTION -->
+    <section class="price-section">
+      <div class="price-container grid grid--3-cols">
+      <div class="price-box box1">
+        <h4>Basic</h4>
+        <p class="dollar-price">$39<span class="per-month">/mo</span></p>
+        <p class="price-box-text">Suited for small teams with minimal developer handoffs.</p>
+        <div class="benefits flex">
+          <img src="Assets/Checkmark.svg" alt="checkmark" class="checkmark">
+          <span>Web access only.</span>
+        </div>
+        <div class="benefits flex">
+          <img src="Assets/Checkmark.svg" alt="checkmark" class="checkmark">
+          <span>20 Handoffs per month.</span>
+        </div>
+        <div class="benefits flex">
+          <img src="Assets/Checkmark.svg" alt="checkmark" class="checkmark">
+          <span>2 members.</span>
+        </div>
+        <div class="benefits flex">
+          <img src="Assets/Checkmark.svg" alt="checkmark" class="checkmark">
+          <span>Offline editing only.</span>
+        </div>
+        <button class="btn btn-subscribe">Subscribe</button>
+      </div>
+
+      <div class="price-box box2 starter">
+        <h4>Starter</h4>
+        <p class="dollar-price">$59<span class="per-month">/mo</span></p>
+        <p class="price-box-text">Suited for medium businesses with a lot of handoffs.</p>
+        <div class="benefits-starter">
+        <div class="benefits flex">
+          <img src="Assets/Checkmark.svg" alt="checkmark" class="checkmark">
+          <span>Web & Figma Plugin.</span>
+        </div>
+        <div class="benefits flex">
+          <img src="Assets/Checkmark.svg" alt="checkmark" class="checkmark">
+          <span>60 Handoffs per month.</span>
+        </div>
+        <div class="benefits flex">
+          <img src="Assets/Checkmark.svg" alt="checkmark" class="checkmark">
+          <span>4 members.</span>
+        </div>
+        <div class="benefits flex">
+          <img src="Assets/Checkmark.svg" alt="checkmark" class="checkmark">
+          <span>Live editing.</span>
+        </div>
+      </div>
+        <button class="btn btn-subscribe">Subscribe</button>
+      </div>
+
+      <div class="price-box box3">
+        <h4>Pro</h4>
+        <p class="dollar-price">$129<span class="per-month">/mo</span></p>
+        <p class="price-box-text">Suited for enterprises with daily developer handoffs.</p>
+        <div class="benefits flex">
+          <img src="Assets/Checkmark.svg" alt="checkmark" class="checkmark">
+          <span>Web & Figma Plugin.</span>
+        </div>
+        <div class="benefits flex">
+          <img src="Assets/Checkmark.svg" alt="checkmark" class="checkmark">
+          <span>500+ Handoffs per month.</span>
+        </div>
+        <div class="benefits flex">
+          <img src="Assets/Checkmark.svg" alt="checkmark" class="checkmark">
+          <span>Unlimited members.</span>
+        </div>
+        <div class="benefits flex">
+          <img src="Assets/Checkmark.svg" alt="checkmark" class="checkmark">
+          <span>Live editing.</span>
+        </div>
+        <button class="btn btn-subscribe">Subscribe</button>
+      </div>
+    </div>
+  </section>
+<!-- BOTTOM LINKS -->
+  <section class="section-bottom-links">
+      <div class="bottom-links flex">
+      <div class="logo-info">
+        <div class="logo-img">
+          <img src="Assets/Footer-logo.svg" alt="remix light logo">
+        </div>
+        <p class="company-logo-text">
+          Remix is a Figma and Sketch plugin that was made with Developers in mind. Create custom React components in seconds, copy CSS code in one click, and export your assets effortlessly.
+        </p>
+      </div>
+      <div class="links flex">
+        <div class="support">
+          <h3>Support</h3>
+          <a class="btn-links" href="#">Sketch</a>
+          <a class="btn-links" href="#">Figma</a>
+          <a class="btn-links" href="#">&nbsp;</a>
+        </div>
+        <div class="developers">
+          <h3>Developers</h3>
+          <a class="btn-links" href="#">API</a>
+          <a class="btn-links" href="#">Documentation</a>
+          <a class="btn-links" href="#">&nbsp;</a>
+        </div>
+        <div class="company">
+          <h3>Company</h3>
+          <a class="btn-links" href="#">Career</a>
+          <a class="btn-links" href="#">Support</a>
+          <a class="btn-links" href="#">Culture</a>
+        </div>
+      </div>
+    </div>
+    </section>
+    </main>
+      <footer> 
+        <div class="section-footer flex">
+          <p>&copy; Remix 2021</p>
+          <div class="support-mail flex">
+            <a class="support-link" href="#">support@remix.com</a>
+            <img src="Assets/Twitter.svg" alt="twitter icon">
+            <img src="Assets/Facebook.svg" alt="facebook icon">
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>

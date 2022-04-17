@@ -1,0 +1,188 @@
+body.dark {
+	background-color: #1f2227;
+
+}
+header {
+	padding: 40px 150px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-left {
+	align-items: center;
+	gap: 1rem;
+}
+header a {
+	text-decoration: none;
+	color: #595959;
+}
+body.dark header a {
+	color:  #a1a5ac;
+}
+.remix-logo-top {
+	padding-top: 4px;
+}
+/***NAV-blog SECTION***/
+nav {
+	padding: 40px 150px;
+	
+}
+.nav-blog {
+	align-items: center;
+	justify-content: space-between;
+	
+
+	padding-bottom: 10px;
+}
+.nav-link {
+	text-decoration: none;
+	font-weight: 500;
+	color: #595959;
+	
+
+}
+body.dark .nav-link {
+	color: #ffffff;
+}
+
+.nav-link:hover {
+	text-decoration: none;
+}
+.nav-link:focus {
+	font-weight: 700;
+	border-bottom: 3px solid #f7ca18;
+	padding-bottom: 10px;
+}
+body.dark .nav-link:focus {
+	color:  #f7ca18;
+}
+#focus {
+	/*color:  #00000;*/
+	font-weight: 700;
+	border-bottom: 3px solid #f7ca18;
+	padding-bottom: 10px;
+}
+body.dark #focus {
+	color:  #f7ca18;
+}
+.search {
+	gap:  8px;
+	color: #595959;
+}
+.hr-line {
+	width: 1050px;
+	margin-left: 150px;
+	color:  #f5f6f8;
+}
+body.dark .hr-line {
+	color:  #434550;
+}
+
+
+
+
+/***HERO SECTION****/
+.main-blog-area {
+	padding: 40px 150px 80px 150px;
+}
+.container {
+	background-color: #f5f6f8;
+	border-radius: 5px;
+}
+body.dark .container {
+	background-color: #41424e;
+}
+.first-row {
+	display: grid;
+	
+	grid-template-columns: 2fr 1fr;
+	gap:  40px;
+	margin-bottom: 40px;
+
+}
+.second-row {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap:  40px;
+	
+}
+.blog-image {
+	width: 100%;
+	height: 169px;
+	
+}
+.blog-headings {
+	justify-content: space-between;
+	margin-bottom: 8px;
+	
+}
+.blog-headings h4 {
+	color:  #000000;
+}
+body.dark .blog-headings h4 {
+	color:  #fff;
+}
+.blog-headings > p {
+	color:  #000000;
+}
+body.dark .blog-headings > p {
+	color:  #fff;
+	
+}
+.box-text-content {
+	padding: 40px;
+
+}
+.box-text-content > p {
+	color:  #70757C;
+}
+.box-text-content > p {
+	color: #c6c8cd;
+}
+@media only screen and (max-width: 768px) {
+	header {
+	padding: 40px 40px;
+	
+	}
+	nav {
+	padding: 40px 40px;
+	
+	}
+	.hr-line {
+	width: 660px;
+	margin-left: 40px;
+	
+	}
+	.main-blog-area {
+	padding: 40px 40px 80px 40px;
+	}
+
+
+	.first-row,
+	.second-row {
+	grid-template-columns: 1fr;
+	}
+
+}
+
+@media only screen and (max-width: 414px) {
+	header {
+	padding: 20px 20px;
+	
+	}
+	nav {
+	padding: 40px 20px;
+	
+	}
+	.nav-blog {
+		font-size: 10px;
+	}
+	.hr-line {
+	width: 360px;
+	margin-left: 20px;
+	
+	}
+	.main-blog-area {
+	padding: 40px 20px 80px 20px;
+	}
+}

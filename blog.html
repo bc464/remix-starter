@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700;900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Remix</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-blog.css">
+    <script defer src="script-blog.js"></script>
+  </head>
+  <body>
+    <header class="header flex">
+      <div class="header-left flex">
+        <a href="index.html"><img src="Assets/Remix Logo Light Mode.svg" alt="remix logo" class="remix-logo-top"></a>
+        <a href="index.html"><img src="Assets/Remix-logo.svg" alt="remix logo" class="remix-logo-dark"></a>
+        <a href="#">Blog</a>
+      </div>
+      <div class="header-right">
+        <div class="theme-change">
+          <div class="light-theme">
+            <img src="Assets/Light.svg" alt="light-icon">
+            <span class="light-text">Light</span>
+          </div>
+          <div class="dark-theme">
+            <img src="Assets/Moon.svg" alt="moon-icon">
+            <span class="dark-text">Dark</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+    <main>
+      <nav class="nav-blog flex">
+        <ul>
+          <li><a id="focus" class="nav-link " href="#">Recent</a></li>
+          <li><a class="nav-link" href="#">Resources</a></li>
+          <li><a class="nav-link" href="#">Figma Tips</a></li>
+          <li><a class="nav-link" href="#">Company</a></li>
+        </ul>
+        <div class="search flex">
+          <img src="Assets/Search.svg" alt="search-icon" class="search-icon">
+          <p>Search</p>
+        </div>
+      </nav>
+      <hr class="hr-line">
+<!-- HERO SECTION -->
+    <section class="main-blog-area">
+      <div class="first-row">
+        <div class="container">
+          <div class="box-image">
+            <img src="Assets/Blog01.png" alt="blog1 image" class="blog-image">
+          </div>
+          <div class="box-text-content">
+            <div class="blog-headings flex">
+              <h4>Celebrating Earth Day at Remix</h4>
+              <p>April 12, 2021</p>
+            </div>
+            <p>One thing COVID has shown us how Earth can still be saved. See how we're contributing to making Earth a better place at Remix.
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="box-image">
+            <img src="Assets/Blog02Image.png" alt="blog2 image" class="blog-image">
+          </div>
+          <div class="box-text-content">
+            <div class="blog-headings flex">
+              <h4>Productivity</h4>
+              <p>Jan 15, 2021</p>
+            </div>
+            <p>Tips on being more productive by Remix.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    <div class="second-row">
+      <div class="container">
+          <div class="box-image">
+            <img src="Assets/Blog03Image.png" alt="blog3 image" class="blog-image">
+          </div>
+          <div class="box-text-content">
+            <div class="blog-headings flex">
+              <h4>Developers Hand-off Explained</h4>
+              <p>May 21, 2021</p>
+            </div>
+            <p>Our team goes over what developer hand-off is in complete details.
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="box-image">
+            <img src="Assets/Blog04Image.png" alt="blog4 image" class="blog-image">
+          </div>
+          <div class="box-text-content">
+            <div class="blog-headings flex">
+              <h4>Using Figma Variants</h4>
+              <p>April 22, 2021</p>
+            </div>
+            <p>Learn how to create Figma variants for components to facilitate developer hand offs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- BOTTOM LINKS -->
+  <section class="section-bottom-links">
+      <div class="bottom-links flex">
+      <div class="logo-info">
+        <div class="logo-img">
+          <img src="Assets/Footer-logo.svg" alt="remix light logo">
+        </div>
+        <p class="company-logo-text">
+          Remix is a Figma and Sketch plugin that was made with Developers in mind. Create custom React components in seconds, copy CSS code in one click, and export your assets effortlessly.
+        </p>
+      </div>
+      <div class="links flex">
+        <div class="support">
+          <h3>Support</h3>
+          <a class="btn-links" href="#">Sketch</a>
+          <a class="btn-links" href="#">Figma</a>
+          <a class="btn-links" href="#">&nbsp;</a>
+        </div>
+        <div class="developers">
+          <h3>Developers</h3>
+          <a class="btn-links" href="#">API</a>
+          <a class="btn-links" href="#">Documentation</a>
+          <a class="btn-links" href="#">&nbsp;</a>
+        </div>
+        <div class="company">
+          <h3>Company</h3>
+          <a class="btn-links" href="#">Career</a>
+          <a class="btn-links" href="#">Support</a>
+          <a class="btn-links" href="#">Culture</a>
+        </div>
+      </div>
+    </div>
+  </section>
+    </main>
+      <footer> 
+        <div class="section-footer flex">
+          <p>&copy; Remix 2021</p>
+          <div class="support-mail flex">
+            <a class="support-link" href="#">support@remix.com</a>
+            <img src="Assets/Twitter.svg" alt="twitter icon">
+            <img src="Assets/Facebook.svg" alt="facebook icon">
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>
